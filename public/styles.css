@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: max-content;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid #8d8d8d;
+  text-align: center;
+}
+
+.addNew {
+  width: 300px;
+  text-align: right;
+  margin: auto;
+
+}
+
+input[type="submit"], button {
+  padding: 5px;
+  box-sizing: inherit;
+}
+
+.editing {
+  display: none;
+}
